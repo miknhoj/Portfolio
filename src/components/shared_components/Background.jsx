@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledText = styled.div`
   color: white;
+  font-size: 5vw;
   padding: 20;
   position: absolute;
   top: 50%;

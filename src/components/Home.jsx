@@ -1,33 +1,13 @@
 import React, { Component } from 'react'
 import { Container, Divider } from 'semantic-ui-react'
-// import Background from './shared_components/Background'
-import { Parallax } from 'react-parallax'
-import styled from 'styled-components'
-
-const StyledText = styled.div`
-  color: white;
-  padding: 20;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-`
-const image = "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8c03c98f431a4dbbfb5f93962fa44e7&auto=format&fit=crop&w=1633&q=80"
+import Background from './shared_components/Background'
 
 export default class Home extends Component {
-
   render() {
     return (
       <div>
         <h1>Welcome</h1>
-        <div>
-          {/* -----dynamic blur-----*/}
-          <Parallax bgImage={image} blur={{ min: -1, max: 3 }}>
-            <div style={{ height: 500 }}>
-              <StyledText>Hi. I'm John.</StyledText>
-            </div>
-          </Parallax>
-        </div>
+        <Background />
         <Container textAlign='left'>Left Aligned</Container>
         <Container textAlign='center'>Center Aligned</Container>
         <Container textAlign='right'>Right Aligned</Container>
