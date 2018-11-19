@@ -11,7 +11,7 @@ export default class NavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu>
+      <Menu pointing secondary>
 
         <Link to={'/'}><Menu.Item
           name='home'

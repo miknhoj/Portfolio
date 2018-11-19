@@ -12,12 +12,13 @@ class App extends Component {
   handleContextRef = contextRef => this.setState({ contextRef })
 
   render() {
+
     const { contextRef } = this.state
     
     return (
       <Router>
         <div>
-          <Sticky context={contextRef} pushing>
+          <Sticky context={contextRef}>
             <NavBar />
           </Sticky>
           <Switch>
