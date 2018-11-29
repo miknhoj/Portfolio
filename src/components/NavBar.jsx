@@ -13,30 +13,32 @@ export default class NavBar extends Component {
     return (
       <Menu pointing secondary>
 
-        <Link to={'/'}><Menu.Item
+        <Menu.Item
+          as={Link} to='/'
           name='home'
           active={activeItem === 'home'}
           onClick={this.handleItemClick}
         >
           Home
         </Menu.Item>
-        </Link>
 
-        <Link to={'/about'}>
-          <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleItemClick}>
-            About
+        <Menu.Item name='about'
+          href="#about"
+          active={activeItem === 'about'}
+          onClick={this.handleItemClick}
+        >
+          About
         </Menu.Item>
-        </Link>
 
-        <Link to={'/projects'}>
-          <Menu.Item
-            name='projects'
-            active={activeItem === 'projects'}
-            onClick={this.handleItemClick}
-          >
-            Projects
+
+        <Menu.Item
+          href="#projects"
+          name='projects'
+          active={activeItem === 'projects'}
+          onClick={this.handleItemClick}
+        >
+          Projects
         </Menu.Item>
-        </Link>
 
       </Menu>
     )

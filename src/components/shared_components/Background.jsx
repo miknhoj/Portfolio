@@ -6,7 +6,7 @@ const StyledWrapper = styled.div`
   text-align: center;
 `
 
-const StyledImage = styled.div`
+const StyledImageContainer = styled.div`
   height: 500px;
 `
 
@@ -34,10 +34,10 @@ const image = "https://images.unsplash.com/photo-1482376297902-a54c222cec2b?ixli
 
 const Background = () => (
   <StyledWrapper>
-    <Parallax bgImage={image} >
-      <StyledImage >
+    <Parallax bgImage={image} style={{backgroundPosition: 'bottom'}} >
+      <StyledImageContainer >
         <StyledText>Hi. I'm John.</StyledText>
-      </StyledImage >
+      </StyledImageContainer >
     </Parallax>
   </StyledWrapper>
 );
