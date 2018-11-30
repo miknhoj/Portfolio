@@ -5,13 +5,13 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <Card.Group>
+        <Card.Group centered>
           <Card>            
             <Image src='/images/jeopardy.png' onClick={()=> window.open("https://awesome-gates-834535.netlify.com/", "_blank")}/>
             <Card.Content>
-              <Card.Header>Project 1</Card.Header>
-              <Card.Meta>Joined in 2016</Card.Meta>
-              <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+              <Card.Header>Pokemon Jeopardy</Card.Header>
+              <Card.Meta>WDI: Project 1</Card.Meta>
+              <Card.Description>Simple Jeopardy game using HMTL5, CSS3 and JQuery.</Card.Description>
             </Card.Content>
             <Card.Content extra>
             <a href="https://github.com/miknhoj/jeopardy">
@@ -23,9 +23,9 @@ export default class Projects extends Component {
           <Card>
             <Image src='/images/dribble.png' onClick={()=> window.open("https://infinite-crag-33348.herokuapp.com/", "_blank")}/>
             <Card.Content>
-              <Card.Header>Project 2</Card.Header>
-              <Card.Meta>Joined in 2016</Card.Meta>
-              <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+              <Card.Header>Dribble</Card.Header>
+              <Card.Meta>WDI: Project 2</Card.Meta>
+              <Card.Description>A fun app demonstrating CRUD functionality and server side rendering utlilizing Express, Handlebars and MongoDB</Card.Description>
             </Card.Content>
             <Card.Content extra>
               <a href="https://github.com/miknhoj/dribble">
@@ -37,9 +37,9 @@ export default class Projects extends Component {
           <Card>
             <Image src='/images/cigarlog.png' onClick={()=> window.open("https://cigar-log.herokuapp.com/", "_blank")}/>
             <Card.Content>
-              <Card.Header>Project 3</Card.Header>
-              <Card.Meta>Joined in 2016</Card.Meta>
-              <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+              <Card.Header>Cigar.Log</Card.Header>
+              <Card.Meta>WDI: Project 3</Card.Meta>
+              <Card.Description>A passion project building off of Project 2 - full CRUD functionality and client side rendering with React.</Card.Description>
             </Card.Content>
             <Card.Content extra>
             <a href="https://github.com/miknhoj/cigar.log">
@@ -51,9 +51,9 @@ export default class Projects extends Component {
           <Card>
             <Image src='/images/costanza.png' onClick={()=> window.open("https://costanza-go.herokuapp.com/", "_blank")}/>
             <Card.Content>
-              <Card.Header>Project 4</Card.Header>
-              <Card.Meta>Joined in 2016</Card.Meta>
-              <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+              <Card.Header>Constanza!</Card.Header>
+              <Card.Meta>WDI: Project 4</Card.Meta>
+              <Card.Description>A light hearted app demonstrating CRUD functionality using Ruby on Rails and 3rd Party APIs.</Card.Description>
             </Card.Content>
             <Card.Content extra>
             <a href="https://github.com/miknhoj/Constanza">
