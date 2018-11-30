@@ -3,7 +3,7 @@ import { Menu } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 export default class NavBar extends Component {
-  state = {}
+  state = { activeItem: 'home' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -11,7 +11,7 @@ export default class NavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu pointing secondary>
+      <Menu fixed={'top'} pointing secondary>
 
         <Menu.Item
           as={Link} to='/'
