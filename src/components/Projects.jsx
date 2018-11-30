@@ -7,7 +7,7 @@ export default class Projects extends Component {
       <div>
         <Card.Group>
           <Card>            
-            <Image src='/images/avatar/large/daniel.jpg' onClick={()=> window.open("https://awesome-gates-834535.netlify.com/", "_blank")}/>
+            <Image src='/images/jeopardy.png' onClick={()=> window.open("https://awesome-gates-834535.netlify.com/", "_blank")}/>
             <Card.Content>
               <Card.Header>Project 1</Card.Header>
               <Card.Meta>Joined in 2016</Card.Meta>
@@ -21,7 +21,7 @@ export default class Projects extends Component {
             </Card.Content>
           </Card>
           <Card>
-            <Image src='/images/avatar/large/daniel.jpg' onClick={()=> window.open("https://infinite-crag-33348.herokuapp.com/", "_blank")}/>
+            <Image src='/images/dribble.png' onClick={()=> window.open("https://infinite-crag-33348.herokuapp.com/", "_blank")}/>
             <Card.Content>
               <Card.Header>Project 2</Card.Header>
               <Card.Meta>Joined in 2016</Card.Meta>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
             </Card.Content>
           </Card>
           <Card>
-            <Image src='/images/avatar/large/daniel.jpg' onClick={()=> window.open("https://cigar-log.herokuapp.com/", "_blank")}/>
+            <Image src='/images/cigarlog.png' onClick={()=> window.open("https://cigar-log.herokuapp.com/", "_blank")}/>
             <Card.Content>
               <Card.Header>Project 3</Card.Header>
               <Card.Meta>Joined in 2016</Card.Meta>
@@ -49,7 +49,7 @@ export default class Projects extends Component {
             </Card.Content>
           </Card>
           <Card>
-            <Image src='/images/avatar/large/daniel.jpg' onClick={()=> window.open("https://costanza-go.herokuapp.com/", "_blank")}/>
+            <Image src='/images/costanza.png' onClick={()=> window.open("https://costanza-go.herokuapp.com/", "_blank")}/>
             <Card.Content>
               <Card.Header>Project 4</Card.Header>
               <Card.Meta>Joined in 2016</Card.Meta>
