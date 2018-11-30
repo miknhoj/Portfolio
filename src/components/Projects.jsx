@@ -14,10 +14,10 @@ export default class Projects extends Component {
               <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
-                <Icon name='user' />
-                10 Friends
-      </a>
+            <a href = "https://github.com/miknhoj/jeopardy">
+                <Icon name='github' />
+                Link to GitHub Repository
+                </a>
             </Card.Content>
           </Card>
           <Card>
@@ -29,8 +29,8 @@ export default class Projects extends Component {
             </Card.Content>
             <Card.Content extra>
               <a>
-                <Icon name='user' />
-                10 Friends
+                <Icon name='github' />
+                Link to GitHub Repository
       </a>
             </Card.Content>
           </Card>
@@ -43,8 +43,8 @@ export default class Projects extends Component {
             </Card.Content>
             <Card.Content extra>
               <a>
-                <Icon name='user' />
-                10 Friends
+                <Icon name='github' />
+                Link to GitHub Repository
       </a>
             </Card.Content>
           </Card>
@@ -57,11 +57,11 @@ export default class Projects extends Component {
             </Card.Content>
             <Card.Content extra>
               <a>
-                <Icon name='user' />
-                10 Friends
+                <Icon name='github' />
+                Link to GitHub Repository
       </a>
             </Card.Content>
-          </Card>Í
+          </Card>
         </Card.Group>
       </div>
     )

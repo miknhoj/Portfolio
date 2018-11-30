@@ -14,8 +14,6 @@ export default class Home extends Component {
 
     return (
       <div>
-
-        <h1>Welcome</h1>
         <Background />
         <Container textAlign='left'>Left Aligned</Container>
         <Container textAlign='center'>Center Aligned</Container>
@@ -95,9 +93,9 @@ export default class Home extends Component {
             nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
             augue. Curabitur ullamcorper ultricies nisi.
       </p>
-
-          <Projects id="projects" />
-
+          <div id="projects">
+            <Projects />
+          </div>
         </Container>
       </div>
     )

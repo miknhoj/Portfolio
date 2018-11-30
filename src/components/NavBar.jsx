@@ -22,7 +22,8 @@ export default class NavBar extends Component {
           Home
         </Menu.Item>
 
-        <Menu.Item name='about'
+        <Menu.Item
+          name='about'
           href="#about"
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
@@ -31,9 +32,9 @@ export default class NavBar extends Component {
         </Menu.Item>
 
 
-        <Menu.Item
-          href="#projects"
+        <Menu.Item 
           name='projects'
+          href='#projects'
           active={activeItem === 'projects'}
           onClick={this.handleItemClick}
         >
