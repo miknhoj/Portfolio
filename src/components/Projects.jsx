@@ -14,7 +14,7 @@ export default class Projects extends Component {
               <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-            <a href = "https://github.com/miknhoj/jeopardy">
+            <a href="https://github.com/miknhoj/jeopardy">
                 <Icon name='github' />
                 Link to GitHub Repository
                 </a>
@@ -28,7 +28,7 @@ export default class Projects extends Component {
               <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
+              <a href="https://github.com/miknhoj/dribble">
                 <Icon name='github' />
                 Link to GitHub Repository
       </a>
@@ -42,7 +42,7 @@ export default class Projects extends Component {
               <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
+            <a href="https://github.com/miknhoj/cigar.log">
                 <Icon name='github' />
                 Link to GitHub Repository
       </a>
@@ -56,7 +56,7 @@ export default class Projects extends Component {
               <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
+            <a href="https://github.com/miknhoj/Constanza">
                 <Icon name='github' />
                 Link to GitHub Repository
       </a>
