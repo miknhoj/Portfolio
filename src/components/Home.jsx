@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Container, Divider } from 'semantic-ui-react'
 import Background from './shared_components/Background'
 import Projects from './Projects';
+import Footer from './Footer';
 // import NavBar from './NavBar';
 // import { Sticky } from 'semantic-ui-react'
 
@@ -31,16 +32,20 @@ export default class Home extends Component {
             nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
             augue. Curabitur ullamcorper ultricies nisi.
       </p>
-        </Container>
 
-        <Container textAlign='justified'>
           <b>General Assembly WDI Projects</b>
           <Divider />
 
           <div id="projects">
             <Projects />
           </div>
+
+          <b>Freelance Projects</b>
+          
+          <Divider />
+          <p id="freelance">Coming soon</p>
         </Container>
+        <Footer />
       </div>
     )
   }
