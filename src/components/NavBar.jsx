@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu, Responsive, Visibility, Segment } from 'semantic-ui-react'
+import { Menu, Responsive, Visibility } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 export default class NavBar extends Component {

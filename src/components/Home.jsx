@@ -3,6 +3,7 @@ import { Container, Divider } from 'semantic-ui-react'
 import Background from './shared_components/Background'
 import Projects from './Projects';
 import Footer from './Footer';
+import Social from './Social';
 // import NavBar from './NavBar';
 // import { Sticky } from 'semantic-ui-react'
 
@@ -15,19 +16,20 @@ export default class Home extends Component {
 
     return (
       <div>
+        
         <Background />
-  
+        <Social/>
         <Container textAlign='justified'>
-          <b>About Me</b>
+          <b id="about"> About Me</b>
           <Divider />
-          <p id="about">
+          <p>
           I’m a full stack web developer with a love of learning. I enjoy the process of finding a solution to a problem and finding new and creative ways to make something better. Highly coachable; adaptable to change; eager to learn; works well with others; strong communicator; a recovering perfectionist learning to  get out of my comfort zone and to seek discomfort to grow as a person. 
       </p>
 
-          <b>General Assembly WDI Projects</b>
+          <b id="projects">General Assembly WDI Projects</b>
           <Divider />
 
-          <div id="projects">
+          <div>
             <Projects />
           </div>
 
