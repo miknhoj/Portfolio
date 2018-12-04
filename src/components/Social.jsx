@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu, Icon } from 'semantic-ui-react'
+import { Menu, Icon, Visibility, Container } from 'semantic-ui-react'
 import _ from 'lodash'
 
 const overlayStyle = {
@@ -48,31 +48,40 @@ export default class Social extends Component {
   unStickTopMenu = () => this.setState({ menuFixed: false })
 
   render() {
-    const { overlayFixed } = this.state
+    const { overlayFixed, overlayRect } = this.state
 
     return (
-      <div ref={this.handleOverlayRef} style={overlayFixed ? fixedOverlayStyle : overlayStyle}>
-        <Menu
-          icon='labeled'
-          style={overlayFixed ? fixedOverlayMenuStyle : overlayMenuStyle}
-          vertical
-        >
-          <Menu.Item>
-            <Icon name='twitter' />
-            Twitter
+      <Container>
+        <Visibility
+          offset={80}
+          once={false}
+          onTopPassed={this.stickOverlay}
+          onTopVisible={this.unStickOverlay}
+          style={overlayFixed ? { ...overlayStyle, ...overlayRect } : {}}
+        />
+        <div ref={this.handleOverlayRef} style={overlayFixed ? fixedOverlayStyle : overlayStyle}>
+          <Menu
+            icon='labeled'
+            style={overlayFixed ? fixedOverlayMenuStyle : overlayMenuStyle}
+            vertical
+          >
+            <Menu.Item>
+              <Icon name='twitter' />
+              Twitter
         </Menu.Item>
 
-          <Menu.Item>
-            <Icon name='facebook' />
-            Share
+            <Menu.Item>
+              <Icon name='facebook' />
+              Share
         </Menu.Item>
 
-          <Menu.Item>
-            <Icon name='mail' />
-            Email
+            <Menu.Item>
+              <Icon name='mail' />
+              Email
         </Menu.Item>
-        </Menu>
-      </div>
+          </Menu>
+        </div>
+      </Container>
     )
   }
 }
