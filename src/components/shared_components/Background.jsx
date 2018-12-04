@@ -1,13 +1,14 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import styled from 'styled-components'
+import { Image } from 'semantic-ui-react'
 
 const StyledWrapper = styled.div`
   text-align: center;
 `
 
 const StyledImageContainer = styled.div`
-  height: 500px;
+  height: 400px;
 `
 
 const StyledText = styled.div`
@@ -30,13 +31,16 @@ const StyledText = styled.div`
   } */
 `
 
-const image = "https://images.unsplash.com/photo-1482376297902-a54c222cec2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b054282b3f7a02bdca851ae7f09802cc&auto=format&fit=crop&w=1650&q=80"
+// const image = "https://images.unsplash.com/photo-1482376297902-a54c222cec2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b054282b3f7a02bdca851ae7f09802cc&auto=format&fit=crop&w=1650&q=80"
+
+const image = "https://images.unsplash.com/photo-1504521580062-62f6725691a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
 
 const Background = () => (
   <StyledWrapper>
-    <Parallax bgImage={image} style={{backgroundPosition: 'bottom'}} >
+    <Parallax bgImage={image} >
       <StyledImageContainer >
-        <StyledText>Hi. I'm John.</StyledText>
+
+        <StyledText> <Image src='/images/profile.jpg' size='small' circular centered spaced/> Hi. I'm John.</StyledText>
       </StyledImageContainer >
     </Parallax>
   </StyledWrapper>

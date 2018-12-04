@@ -21,8 +21,8 @@ export default class Home extends Component {
 
         <Background />
         <Container textAlign='justified'>
-          <Header id="about"> About Me</Header>
-          <Divider />
+          {/* <Header id="about"> About Me</Header> */}
+          {/* <Divider /> */}
           <p>
             I’m a full stack web developer with a love of learning. I enjoy the process of finding a solution to a problem and finding new and creative ways to make something better. Highly coachable; adaptable to change; eager to learn; works well with others; strong communicator; a recovering perfectionist learning to  get out of my comfort zone and to seek discomfort to grow as a person.
       </p>
