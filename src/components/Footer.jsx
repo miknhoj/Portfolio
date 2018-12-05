@@ -25,7 +25,7 @@ export default class Footer extends Component {
                   <List.Item as='a' href='mailto:kimjohan86@gmail.com'><Icon name='mail' />Email</List.Item>
                   <List.Item as='a' href='https://www.linkedin.com/in/john-kim-atl/'><Icon name='linkedin' />LinkedIn</List.Item>
 
-                  <Modal trigger={<List.Item><Icon name='file alternate outline' />Resume</List.Item>} closeIcon>
+                  <Modal trigger={<List.Item as='a'><Icon name='file alternate outline' />Resume</List.Item>} closeIcon>
                     <Header icon='file alternate outline' content='Resume' />
                     <Modal.Content image>
                     <Image wrapped size='fullscreen' src = './images/Resume_John_Kim.jpg' alt='resume'/>
