@@ -5,7 +5,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <Card.Group centered>
+        <Card.Group centered itemsPerRow={4}>
           <Card>            
             <Image src='/images/jeopardy.png' onClick={()=> window.open("https://awesome-gates-834535.netlify.com/", "_blank")}/>
             <Card.Content>
