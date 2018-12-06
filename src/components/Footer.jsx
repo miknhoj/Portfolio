@@ -11,7 +11,7 @@ export default class Footer extends Component {
           <Grid divided inverted stackable>
             <Grid.Row>
               <Grid.Column width={13}>
-                <Header as='h3' inverted>
+                <Header as='h2' inverted>
                   Skills
               </Header>
                 <List horizontal >
@@ -33,8 +33,8 @@ export default class Footer extends Component {
               </Grid.Column>
 
               <Grid.Column width={3}>
-                <Header inverted as='h4' content='Connect' />
-                <List link inverted >
+                <Header inverted as='h2' content='Connect' />
+                <List link inverted size='big'>
                   <List.Item as='a' href='https://github.com/miknhoj?tab=repositories'><Icon name='github' />GitHub</List.Item>
                   <List.Item as='a' href='mailto:kimjohan86@gmail.com'><Icon name='mail' />Email</List.Item>
                   <List.Item as='a' href='https://www.linkedin.com/in/john-kim-atl/'><Icon name='linkedin' />LinkedIn</List.Item>

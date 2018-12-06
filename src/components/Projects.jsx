@@ -5,7 +5,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <Card.Group centered itemsPerRow={4}>
+        <Card.Group centered>
           <Card>            
             <Image src='/images/jeopardy.png' onClick={()=> window.open("https://awesome-gates-834535.netlify.com/", "_blank")}/>
             <Card.Content>
@@ -43,6 +43,20 @@ export default class Projects extends Component {
             </Card.Content>
             <Card.Content extra>
             <a href="https://github.com/miknhoj/cigar.log">
+                <Icon name='github' />
+                Link to GitHub Repository
+      </a>
+            </Card.Content>
+          </Card>
+          <Card>
+            <Image src='/images/vagabond.png' onClick={()=> window.open("https://jeclbond.herokuapp.com/", "_blank")}/>
+            <Card.Content>
+              <Card.Header>Vagabond</Card.Header>
+              <Card.Meta>WDI: Project 3.5</Card.Meta>
+              <Card.Description>A fun group project incorporating Agile development practices, git branching, pair and mob programming. It was also an insight of working with a client. </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+            <a href="https://github.com/miknhoj/Vagabond_Project">
                 <Icon name='github' />
                 Link to GitHub Repository
       </a>
