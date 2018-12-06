@@ -19,7 +19,7 @@ export default class Footer extends Component {
                   <List.Item><i className="devicon-css3-plain-wordmark"></i></List.Item>
                   <List.Item><i className="devicon-javascript-plain"></i></List.Item>
                   <List.Item><i className="devicon-nodejs-plain-wordmark"></i></List.Item>
-                  <List.Item><i className="devicon-react-original-wordmark"></i>></List.Item>
+                  <List.Item><i className="devicon-react-original-wordmark"></i></List.Item>
                   <List.Item><i className="devicon-mongodb-plain-wordmark"></i></List.Item>
                   <List.Item><i className="devicon-postgresql-plain-wordmark"></i></List.Item>
                   <List.Item><i className="devicon-ruby-plain"></i></List.Item>
